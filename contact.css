@@ -1,0 +1,20 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.contact-img{
+    z-index: -1;
+    /* position: fixed; */
+}
+
+.crd{
+    z-index: 200;
+    font-family: 'Andika New Basic', sans-serif;
+    border-top: 1px dotted #494949a8;
+    border-bottom: 1px dotted #494949a8;
+}
+
+.crd h4{
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+}

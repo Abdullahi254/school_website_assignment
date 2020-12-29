@@ -1,0 +1,29 @@
+.sideCard{
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 12px;
+}
+.middle{
+    box-shadow: 5px 5px 15px 20px #888888;
+}
+
+.sideCard h6{
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+}
+.op-payment{
+    font-size: 1.1rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.sideCard p {
+    font-size:1.1rem ;
+    font-family: 'Roboto Slab', serif;
+}
+
+.amount{
+    font-style: arial;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}

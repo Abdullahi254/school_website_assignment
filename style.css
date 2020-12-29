@@ -1,12 +1,22 @@
 
 .navbar li{
-    padding-right: 20px;
+    padding-right: 25px;
 }
 
 .nav-link{
     font-size: 1.1em;
 }
+.active{
+    border-bottom: solid 2px red;
+}
 
+.carousel-item {
+    height: 70rem;
+    /* background-color: #777777; */
+}
+.carousel-item img{
+    height: 100%;
+}
 .beeLogo{
     height: 70px;
     width: 70px;
@@ -76,6 +86,7 @@ i{
 footer{
     background-color: #3f3f3f;
     color: #d5d5d5;
+    font-family:'Roboto Slab', serif;
 }
 
 hr.light{
@@ -83,12 +94,20 @@ hr.light{
     width:75%;
 }
 
+
+@media(max-width:1200px){
+    .carousel-item{
+        height:50rem ;
+    }
+}
 @media(max-width:992px){
     .social a{
         font-size: 4em;
         padding: 2rem;
     }
-    
+    .carousel-item{
+        height: 40rem;
+    }
 }
 
 @media(max-width:768px){
@@ -101,6 +120,9 @@ hr.light{
     }
     .btn-primary{
         font-size: 1.1em;
+    }
+    .carousel-item{
+        height: 30rem;
     }
 }
 
@@ -115,4 +137,12 @@ hr.light{
     .btn-primary{
         font-size: .9em;
     }
+    .carousel-item{
+        height: 20rem;
+    }
 }
+
+html {
+    font-size: 1rem;
+  }
+  
