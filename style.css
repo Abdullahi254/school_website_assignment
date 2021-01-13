@@ -9,17 +9,27 @@
 .active{
     border-bottom: solid 2px red;
 }
+.jumbotron{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    font-family: 'Roboto Slab', serif;
+}
 
-.carousel-item {
-    height: 70rem;
-    /* background-color: #777777; */
+.btn-link{
+    color: red;
 }
-.carousel-item img{
-    height: 100%;
+.lead{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
 }
+
 .beeLogo{
     height: 70px;
     width: 70px;
+}
+.card{
+    box-shadow: 5px 10px #d6d6d6;
 }
 
 .form1{
@@ -37,6 +47,14 @@
     height: 70px;
     width: 70px;
 }
+.card-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.card-text{
+    font-family:'Open Sans', sans-serif ;
+}
 
 i{
     color: rgb(16, 141, 243);
@@ -50,7 +68,7 @@ i{
     font-family: 'Andika New Basic', sans-serif;
     font-weight: bold;
 }
-.social a {
+i {
     font-size: 4.5em;
     padding: 3rem;
 }
@@ -94,55 +112,50 @@ hr.light{
     width:75%;
 }
 
+@media(min-width:1200px){
+    .carousel-item img{
+        height: 40rem;
+    }
+    i{
+        font-size: 3em;
+        padding: 1.4rem;
+    }
+}
 
 @media(max-width:1200px){
-    .carousel-item{
-        height:50rem ;
+    .carousel-item img{
+        height: 30rem;
+    }
+    i{
+        font-size: 2.5em;
+        padding: 1.2rem;
     }
 }
 @media(max-width:992px){
-    .social a{
-        font-size: 4em;
-        padding: 2rem;
-    }
-    .carousel-item{
-        height: 40rem;
+    
+    .carousel-item img{
+        height: auto;
     }
 }
 
 @media(max-width:768px){
-    .social a{
+    i{
         font-size: 2.5em;
         padding: 1.2rem;
     }
-    .display-5{
-        font-size: 2.2em;
+    .carousel-item h3{
+        font-size: small;
     }
-    .btn-primary{
-        font-size: 1.1em;
-    }
-    .carousel-item{
-        height: 30rem;
+    .carousel-item h4{
+        font-size: smaller;
     }
 }
 
 @media(max-width:576px){
-    .social a{
+    i{
         font-size: 2em;
         padding: .7rem;
-    }
-    .display-5{
-        font-size: 2em;
-    }
-    .btn-primary{
-        font-size: .9em;
-    }
-    .carousel-item{
-        height: 20rem;
-    }
+    } 
 }
 
-html {
-    font-size: 1rem;
-  }
   

@@ -1,0 +1,25 @@
+
+.intro{
+    font-family: 'Roboto Slab', serif;
+}
+
+.intro h5{
+    color: red;
+    font-weight: bolder;
+}
+
+.intro h6{
+    font-weight: bold;
+}
+
+.boarding{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+@media(min-width:1450px){
+    .bImage{
+        height: 740px;
+    }
+}

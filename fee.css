@@ -2,6 +2,15 @@
     box-shadow: 5px 5px 5px 5px #888888;
     border-radius: 12px;
 }
+.feeCards{
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: 0.5s all ease-in-out;
+}
+.feeCards-appear{
+    opacity: 1;
+    transform: translateX(0px);
+}
 .middle{
     box-shadow: 5px 5px 15px 20px #888888;
 }
